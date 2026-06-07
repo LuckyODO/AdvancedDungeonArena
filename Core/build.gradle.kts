@@ -14,8 +14,8 @@ dependencies {
 
     compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
 
-    compileOnly("su.nightexpress.sunlight:Core:3.16.0")
-    compileOnly("su.nightexpress.sunlight:API:3.16.0")
+    compileOnly("su.nightexpress.sunlight:Core:3.17.0")
+    compileOnly("su.nightexpress.sunlight:API:3.17.0")
 
     compileOnly("io.lumine:Mythic-Dist:5.10.0")
     compileOnly("me.clip:placeholderapi:2.11.6")
@@ -37,7 +37,7 @@ dependencies {
     compileOnly("io.lumine:MythicLib-dist:1.6.2-SNAPSHOT")
     compileOnly("net.Indyuce:MMOCore-API:1.12.1-SNAPSHOT")
 
-    compileOnly("su.nightexpress.combatpets:API:2.5.0")
+    compileOnly("su.nightexpress.combatpets:API:2.8.1")
 
     compileOnly("gg.auroramc:AuroraLevels:2.0.0")
     compileOnly("gg.auroramc:Aurora:2.1.6")
@@ -45,7 +45,7 @@ dependencies {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 

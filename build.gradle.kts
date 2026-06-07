@@ -43,8 +43,8 @@ allprojects {
 
     dependencies {
         compileOnly("org.jetbrains:annotations:23.0.0")
-        compileOnly("su.nightexpress.nightcore:main:2.15.2")
-        compileOnly("su.nightexpress.nightcore:utils:2.15.2")
+        compileOnly("su.nightexpress.nightcore:main:2.16.1")
+        compileOnly("su.nightexpress.nightcore:utils:2.16.1")
     }
 
     configurations.all {
@@ -59,6 +59,9 @@ allprojects {
         compileJava {
             options.isDeprecation = true
             options.encoding = "UTF-8"
+            if (project.path != ":NMS:MC_26_1_1") {
+                options.release.set(21)
+            }
         }
     }
 }
